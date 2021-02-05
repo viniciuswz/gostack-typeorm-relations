@@ -11,7 +11,7 @@ export default class AddCustomerIdToOrders1612489652715
     await queryRunner.addColumn(
       'orders',
       new TableColumn({
-        name: 'custormer_id',
+        name: 'customer_id',
         type: 'uuid',
         isNullable: true,
       }),
